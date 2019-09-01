@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+/*一番上にでてくるタイトル*/
+
+#title{
+	display:inline-block;
+	margin:10px;
+	padding:10px;
+	font-size:2em;
+	background-color:white;
+}
+
+section{
+	padding:1% 5% 1% 5%;
+	text-align:center;
+	height:99vh;
+}
+
+header{
+	background:linen;
+	text-align:left;
+	padding:1% 5% 1% 5%;
+	height:99vh;
+}
+
+section h1{
+	margin:5px;
+	font-size:3em;
+}
+
+section p{
+	font-size:2em;
+}
+
+
+/*コンテンツごとの背景色や背景画像を設定*/
+
+/*AIホビーロボット制作プロジェクトとは？*/
+#about{
+	background:lightyellow;
+}
+
+/*活動記録*/
+#activity{
+	background:coral;
+}
+
+/*ご支援のお願い*/
+#support{
+	background:aquamarine;
+}
+
+/*お問合せ*/
+#contact{
+	background:skyblue;
+}
